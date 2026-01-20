@@ -1,0 +1,61 @@
+# --- Python Core ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Distribution / Packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+# Common names for virtual envs
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# --- Unit Tests / Coverage ---
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Documentation ---
+docs/_build/
+
+# --- IDEs / Editors (Optional but recommended) ---
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Mac OS
+.DS_Store
+
+# --- Secrets (CRITICAL) ---
+# Never commit your environment variable file containing keys!
+.env
+.env.local
